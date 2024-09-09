@@ -16,7 +16,6 @@ class Pessoa:
             f"\nNome: {self.nome}"
             f"\nIdade: {self.idade}"
             f"\nSexo: {self.sexo.value}"
-            f"\nEndereco: {self.endereco.logradouro}"
-            f"\nEndereco: {self.endereco.numero}"
+            f"\nEndereco: {self.endereco}"
             "\n===FIM DOS DADOS==="
         )
