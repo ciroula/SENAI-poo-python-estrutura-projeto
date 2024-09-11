@@ -13,11 +13,11 @@ class Pessoa ():
 
     def __str__(self) -> str:
         return(
-            f"ID: {self.id}"
-            f"nome: {self.nome}"
-            f"data_nascimento: {self.data_nascimento}"
-            f"telefone: {self.telefone}"
-            f"emai: {self.emai}"
-            f"sexo: {self.sexo.value}"
-            f"endereco: {self.endereco}"
+            f"\nID: {self.id}"
+            f"\nnome: {self.nome}"
+            f"\ndata_nascimento: {self.data_nascimento}"
+            f"\ntelefone: {self.telefone}"
+            f"\nemai: {self.email}"
+            f"\nsexo: {self.sexo.value}"
+            f"\nendereco: {self.endereco}"
         )
