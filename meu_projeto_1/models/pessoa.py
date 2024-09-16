@@ -1,5 +1,5 @@
-from models.enums.sexo import Sexo
-from models.endereco import Endereco
+from meu_projeto_1.models.enums.sexo import Sexo
+from meu_projeto_1.models.endereco import Endereco
 #from models.enums.unidade_federativas import UnidadeFederativa
 
 class Pessoa ():
