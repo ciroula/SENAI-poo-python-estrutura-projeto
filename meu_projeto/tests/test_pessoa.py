@@ -16,5 +16,3 @@ def test_pessoa_atributo_nome(Criar_pessoa):
 
 def test_pessoa_atributo_idade(Criar_pessoa):
     assert Criar_pessoa.idade == 21
-
-def
